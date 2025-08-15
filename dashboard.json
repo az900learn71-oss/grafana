@@ -70,7 +70,7 @@
           },
           "type": "csv",
           "source": "url",
-          "url": "http://localhost:8000/website_traffic_with_time.csv",
+          "url": "https://raw.githubusercontent.com/az900learn71-oss/grafana/refs/heads/feature/grafana-dashboard/website_traffic_with_time.csv",
           "url_options": {
             "method": "GET"
           },
@@ -100,7 +100,7 @@
           "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "${DS_INFINITY}" },
           "type": "csv",
           "source": "url",
-          "url": "http://localhost:8000/website_traffic_with_time.csv",
+          "url": "https://raw.githubusercontent.com/az900learn71-oss/grafana/refs/heads/feature/grafana-dashboard/website_traffic_with_time.csv",
           "parser": "csv",
           "columns": [
             { "selector": "Traffic Source", "text": "Traffic Source", "type": "string" },
@@ -132,7 +132,7 @@
           "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "${DS_INFINITY}" },
           "type": "csv",
           "source": "url",
-          "url": "http://localhost:8000/website_traffic_with_time.csv",
+          "url": "https://raw.githubusercontent.com/az900learn71-oss/grafana/refs/heads/feature/grafana-dashboard/website_traffic_with_time.csv",
           "parser": "csv",
           "columns": [
             { "selector": "Conversion Rate", "text": "Conversion Rate", "type": "number" }
@@ -163,7 +163,7 @@
           "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "${DS_INFINITY}" },
           "type": "csv",
           "source": "url",
-          "url": "http://localhost:8000/website_traffic_with_time.csv",
+          "url": "https://raw.githubusercontent.com/az900learn71-oss/grafana/refs/heads/feature/grafana-dashboard/website_traffic_with_time.csv",
           "parser": "csv",
           "columns": []
         }
